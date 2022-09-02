@@ -1,3 +1,5 @@
+package CarExample;
+
 import org.testng.annotations.Test;
 
 public class CarTests {

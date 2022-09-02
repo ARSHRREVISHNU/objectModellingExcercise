@@ -1,3 +1,5 @@
+package CalculatorExample;
+
 public class Calculator {
 
     public static int getAdd(int num1, int num2 ) {
