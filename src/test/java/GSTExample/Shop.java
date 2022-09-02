@@ -18,10 +18,10 @@ public class Shop {
 
 
     public Shop(){
-items = new ArrayList<>();
-rateList = new ArrayList<>();
-itemListBelow = new ArrayList<>();
-rateListBelow = new ArrayList<>();
+        items = new ArrayList<>();
+        rateList = new ArrayList<>();
+        itemListBelow = new ArrayList<>();
+        rateListBelow = new ArrayList<>();
 
     }
     public void levisPant(){
@@ -59,14 +59,14 @@ rateListBelow = new ArrayList<>();
         it = johnPlayers.itemName;
         rateValue = johnPlayers.rate;
     }
-public void satyaPaulSaree(){
-    SatyaPaulSaree satyaPaul = new SatyaPaulSaree();
-    it = satyaPaul.itemName;
-    rateValue = satyaPaul.rate;
+    public void satyaPaulSaree(){
+        SatyaPaulSaree satyaPaul = new SatyaPaulSaree();
+        it = satyaPaul.itemName;
+        rateValue = satyaPaul.rate;
 
 }
 
-public void nalliSarees(){
+    public void nalliSarees(){
         NalliSarees nalli = new NalliSarees();
         it = nalli.itemName;
         rateValue = nalli.rate;
@@ -80,7 +80,7 @@ public void nalliSarees(){
             itemListBelow.add(it);
            rateListBelow.add(rateValue);
         }
-else if(rateValue>2000){
+        else if(rateValue>2000){
             items.add(it);
             rateList.add(rateValue);
         }

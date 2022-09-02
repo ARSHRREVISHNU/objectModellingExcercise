@@ -7,31 +7,30 @@ public class GSTTest {
 
 // Arrange
     Shop items = new Shop();
-    public String itemNames;
 
     @Test
     public void gstRateTotal(){
 
-//Act
+        //Act
         items.levisPant();
         items.addItems();
-        items.johnPlayersShirt();//--
+        items.johnPlayersShirt();//--gst eligible as its more than 2000
         items.addItems();
         items.satyaPaulSaree();
         items.addItems();
         items.levisPant();
         items.addItems();
-        items.peterEnglandShirt();//--
+        items.peterEnglandShirt();//--gst eligible as its more than 2000
         items.addItems();
         items.vanHeusenShirt();
         items.addItems();
-        items.wranglerPant();//--
+        items.wranglerPant();//--gst eligible as its more than 2000
         items.addItems();
-        items.nalliSarees();//--
+        items.nalliSarees();//--gst eligible as its more than 2000
         items.addItems();
         items.leePant();
         items.addItems();
-        items.nalliSarees();//--
+        items.nalliSarees();//--gst eligible as its more than 2000
         items.addItems();
         items.leePant();
         items.addItems();
@@ -45,7 +44,7 @@ public class GSTTest {
         System.out.println(sumValue);
         //Assert
         Assert.assertEquals(sumValue, 19100);
-        //return itemNames;
+
     }
 
 
